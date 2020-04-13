@@ -10,6 +10,9 @@ public class JulgamentoPrisioneiro {
 
 	private int PENA_CONDENACAO_CUMPLICES = 11;
 	
+	public enum Resposta{
+		NEGACAO,DELACAO
+	}
 
 	public int calculaPena(Resposta respostaPrisioneiroA, Resposta respostaPrisioneiroB) {
 

@@ -1,7 +1,12 @@
 package br.com.fiap.bean;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
+import br.com.fiap.bean.JulgamentoPrisioneiro.Resposta;
 
 class TestJulgamentoPrisioneiro {
 
