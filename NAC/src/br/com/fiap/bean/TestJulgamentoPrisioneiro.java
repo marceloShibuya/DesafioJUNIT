@@ -22,5 +22,4 @@ class TestJulgamentoPrisioneiro {
 		assertEquals(15, prisioneiroB);
 
 	}
-
 }
